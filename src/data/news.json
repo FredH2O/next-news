@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Breaking News: Volcano Erupts",
+    "category": "Global News",
+    "image": "/images/volcano.png",
+    "slug": "/volcano-erupts",
+    "content": "Mt. Galucio has erupted, sending lava and ash into the sky. Authorities have issued an evacuation order for nearby villages as the situation develops."
+  },
+  {
+    "id": 2,
+    "title": "Dam Bursts: Injuring Hundreds and Destroying Properties",
+    "category": "Global News",
+    "image": "/images/dam-burst.png",
+    "slug": "/volcano-erupts",
+    "content": "The massive rupture of the Grand Valley Dam has caused widespread flooding. Emergency responders are working tirelessly to rescue trapped residents."
+  },
+  {
+    "id": 3,
+    "title": "Man Dies After Comet Sets House on Fire",
+    "category": "Global News",
+    "image": "/images/burning.png",
+    "slug": "/volcano-erupts",
+    "content": "A rare comet fragment crashed into a suburban home, igniting a fire that claimed the life of a 45-year-old man. Experts are investigating the phenomenon."
+  },
+  {
+    "id": 4,
+    "title": "Climbers Reach Peak After Worst Cold Temperature in History",
+    "category": "Global News",
+    "image": "/images/climber.png",
+    "slug": "/volcano-erupts",
+    "content": "Despite temperatures dropping to record lows, a team of climbers successfully reached the summit of the treacherous Frostpeak Mountain."
+  },
+  {
+    "id": 5,
+    "title": "Strongest Storm to Hit Capital City",
+    "category": "Global News",
+    "image": "/images/storm.png",
+    "slug": "/volcano-erupts",
+    "content": "Meteorologists warn that the approaching Category 5 storm could be the most devastating in decades. Authorities are urging residents to take precautions."
+  }
+]

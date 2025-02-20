@@ -38,7 +38,7 @@ const Header = () => {
             {paths.map((path, index) => (
               <li
                 key={index}
-                className="py-1 px-3 bg-stone-700 hover:bg-stone-600 hover:text-zinc-100 rounded cursor-pointer"
+                className="active:text-sky-400 py-1 px-3 bg-stone-700 hover:bg-stone-600 hover:text-zinc-100 rounded cursor-pointer"
               >
                 <Link href={path.path}>{path.name}</Link>
               </li>
