@@ -18,8 +18,8 @@ export default function Home() {
       <div className="inset-0 -z-10 w-full h-full">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
-          particleCount={200}
-          particleSpread={5}
+          particleCount={500}
+          particleSpread={4}
           speed={0.1}
           particleBaseSize={50}
           moveParticlesOnHover={false}

@@ -7,7 +7,7 @@ const Header = () => {
     <header className="fixed z-20 top-0 left-0 w-full p-1 border-b border-zinc-700 bg-zinc-800">
       <div className="grid grid-cols-2">
         <div className="">
-          <div className="border w-fit">
+          <div className="w-fit">
             <Link href="/" className="">
               <Image
                 className="ml-2"
