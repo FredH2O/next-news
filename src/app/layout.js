@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Merriweather } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const merriweather = Merriweather({
   variable: "--font-merriweather",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <body className={`${merriweather.variable} antialiased`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
