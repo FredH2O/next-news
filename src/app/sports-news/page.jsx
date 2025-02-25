@@ -1,17 +1,10 @@
-import axios from "axios";
-
-const getNews = async () => {
-  const { data } = await axios.get(
-    `https://content.guardianapis.com/search?section=sport&api-key=${process.env.NEXT_PUBLIC_GUARDIAN_API_KEY}`
-  );
-  return data.response.results;
-};
+import getNews from "@/lib/getNews.js";
 
 const SportsNews = async () => {
-  const articles = await getNews();
+  const articles = await getNews({ section: "sport" });
 
   return (
-    <section className="container m-auto pt-20">
+    <section className="container m-auto pt-20 my-20">
       <h1 className="text-4xl font-bold p-5">
         Latest Sports News &copy;The Guardian
       </h1>

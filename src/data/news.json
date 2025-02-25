@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Breaking News: Volcano Erupts",
+    "title": "Volcano Erupts",
     "category": "Global News",
     "image": "/images/volcano.png",
     "slug": "/volcano-erupts",
