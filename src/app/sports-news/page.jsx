@@ -4,11 +4,11 @@ const SportsNews = async () => {
   const articles = await getNews({ section: "sport" });
 
   return (
-    <section className="container m-auto pt-20 my-20">
+    <section className="container m-auto pt-10 my-20">
       <h1 className="text-4xl font-bold p-5">
         Latest Sports News &copy;The Guardian
       </h1>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid lg:grid-cols-2 gap-3 p-2">
         {articles.map((article) => (
           <div key={article.id} className="border rounded border-zinc-700 p-3">
             <h2 className="text-xl font-bold pb-3">{article.webTitle}</h2>

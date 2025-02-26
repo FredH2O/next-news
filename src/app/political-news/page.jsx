@@ -8,7 +8,7 @@ const Page = async () => {
       <h1 className="text-center font-bold text-4xl p-2 m-2">
         Latest in Politics News &copy; The Guardian
       </h1>
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-3">
         {articles.map((article) => (
           <div key={article.id} className="border rounded p-3">
             <h2 className="text-xl">{article.webTitle}</h2>
