@@ -18,7 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${merriweather.variable} antialiased`}>
+      <body
+        className={`${merriweather.variable} antialiased bg-slate-900 text-zinc-200`}
+      >
         <Header />
         {children}
         <Footer />
